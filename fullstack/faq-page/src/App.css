@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  height: 60vh;
+  width: 60vw;
+}
+
+.title {
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.question {
+  color: black;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.question-btn {
+  border-radius: 0;
+}
